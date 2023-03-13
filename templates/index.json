@@ -85,7 +85,7 @@
         "template--17859632005385__260dd7b8-3bf2-4c90-89ce-693f5c0e90c0-167874088274c8ffcf-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Garne<\/p>",
+            "heading": "Garne",
             "heading_size": "h1"
           }
         },
@@ -178,7 +178,7 @@
         "5db3eab1-b4a4-4dcc-98bf-fde63ae7a290": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Zubehör<\/p>",
+            "heading": "Zubehör",
             "heading_size": "h1"
           }
         }
