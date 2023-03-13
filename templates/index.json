@@ -1,71 +1,190 @@
 {
   "sections": {
-    "image_banner": {
-      "type": "image-banner",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "h0"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        },
-        "button": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text",
-        "button"
-      ],
-      "settings": {
-        "image_overlay_opacity": 40,
-        "image_height": "large",
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
-      }
-    },
     "rich_text": {
       "type": "rich-text",
       "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>Talk about your brand<\/p>",
-            "heading_size": "h1"
-          }
-        },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "text": "<h6>Garn und Zubehör für deine Projekte.<br\/>Infos zu unserer App für Motivhandarbeit findest du auf <a href=\"https:\/\/wooltasia.app\" target=\"_blank\" title=\"Wooltasia App Webseite\">wooltasia.app<\/a><\/h6>"
           }
         }
       },
       "block_order": [
-        "heading",
         "text"
+      ],
+      "custom_css": [
+        "h6 {margin: 0;}",
+        "a {color: var(--color-foreground) !important;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 8,
+        "padding_bottom": 8
+      }
+    },
+    "f333d0ae-b2e0-4890-bdb3-0b603f91ba19": {
+      "type": "image-with-text",
+      "blocks": {
+        "ea7fe6d8-846f-4395-b8f4-a3dc7f12ca8b": {
+          "type": "caption",
+          "settings": {
+            "caption": "Unsere neuen Maschenprobenpakete",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "template--17859632005385__f333d0ae-b2e0-4890-bdb3-0b603f91ba19-1678745862e6460cea-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Maschenprobe leicht gemacht",
+            "heading_size": "h1"
+          }
+        },
+        "template--17859632005385__f333d0ae-b2e0-4890-bdb3-0b603f91ba19-1678745862e6460cea-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Mit den neuen Pixel Maschenprobenpaketen findest du direkt raus, welche Fädigkeit zu dir passt und natürlich auch den zentralen Wert für die Projekterstellung in der App herausfinden.<\/p><p>Um das ganze noch einfacher zu machen, gibt es sie jetzt auch im Set mit Zählrahmen, der dich vor dem Mühsamen abmessen mit dem Lineal bewahrt.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--17859632005385__f333d0ae-b2e0-4890-bdb3-0b603f91ba19-1678745862e6460cea-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Maschenprobenpakete ansehen",
+            "button_link": "shopify:\/\/products\/pixel-maschenprobenpaket"
+          }
+        }
+      },
+      "block_order": [
+        "ea7fe6d8-846f-4395-b8f4-a3dc7f12ca8b",
+        "template--17859632005385__f333d0ae-b2e0-4890-bdb3-0b603f91ba19-1678745862e6460cea-0",
+        "template--17859632005385__f333d0ae-b2e0-4890-bdb3-0b603f91ba19-1678745862e6460cea-1",
+        "template--17859632005385__f333d0ae-b2e0-4890-bdb3-0b603f91ba19-1678745862e6460cea-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/335328213_714409517094878_5558450265017197526_n.jpg",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "260dd7b8-3bf2-4c90-89ce-693f5c0e90c0": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17859632005385__260dd7b8-3bf2-4c90-89ce-693f5c0e90c0-167874088274c8ffcf-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Garne<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "6e425623-1970-4ccc-9ed6-506990e0bf6d": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Die Garne in unserem Sortiment haben wir speziell für ihre Farbpaletten und Eignung zum Motivarbeiten mit der Wooltasia App ausgewählt.<\/p>"
+          }
+        },
+        "efb68fd2-fe10-4aca-b57f-eeaceb5b79a6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Mit der Garnangebot-Funktion, berechnen wir dir automatisch die passende Menge, welche du für dein Projekt brauchst.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--17859632005385__260dd7b8-3bf2-4c90-89ce-693f5c0e90c0-167874088274c8ffcf-0",
+        "6e425623-1970-4ccc-9ed6-506990e0bf6d",
+        "efb68fd2-fe10-4aca-b57f-eeaceb5b79a6"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "13e82d6d-beaa-4f26-91ed-1ffe18488827": {
+      "type": "multirow",
+      "blocks": {
+        "template--17859632005385__13e82d6d-beaa-4f26-91ed-1ffe18488827-1678740804a7ddb48b-0": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/photo_2018-10-23_10-56-36.webp",
+            "caption": "",
+            "heading": "Wooltasia® Pixel",
+            "text": "<p>Unsere Pixel sind echte Allrounder und machen schon beim Auspacken Lust, die Nadel in die Hand zu nehmen. TODO: Rüberbringen, dass sie feine Motive ermöglichen.<br\/><br\/>✅ Farbpalette mit über 50 Farben<br\/>✅ Verfügbar in drei verschiedenen Stärken<br\/>✅ Geeignet für Häkeln (auch C2C), Stricken und Sticken<br\/>✅ Perfekt für detaillierte Motive als Kissen oder Decke<br\/>✅ Probepakete für die Maschenprobe erhältlich<\/p>",
+            "button_label": "Pixel ansehen",
+            "button_link": "shopify:\/\/collections\/pixel"
+          }
+        },
+        "template--17859632005385__13e82d6d-beaa-4f26-91ed-1ffe18488827-1678740804a7ddb48b-1": {
+          "type": "row",
+          "settings": {
+            "caption": "",
+            "heading": "Gründl Lisa Premium",
+            "text": "<p>Die Lisa Premium hat einen wollartigen Charakter und eignet sich wegen ihrer Dicke für große Motivdecken und Logos auf Kissen.<br\/><br\/>✅ Farbpalette mit über 30 Farben<br\/>✅ Geeignet für Häkeln (auch C2C) und Stricken<br\/>✅ Wollartiger Charakter für kuschlige Decken und Kissen<\/p>",
+            "button_label": "Lisa Premium ansehen",
+            "button_link": "shopify:\/\/collections\/lisa-premium-uni"
+          }
+        },
+        "template--17859632005385__13e82d6d-beaa-4f26-91ed-1ffe18488827-1678740804a7ddb48b-2": {
+          "type": "row",
+          "settings": {
+            "caption": "",
+            "heading": "Anchor Sticktwist",
+            "text": "<p>Das Sticktwist von Anchor ist ein echter Champion für Motive im Kreuzstich. Das Garn lässt sich auch bei feiner Lochzahl praktisch verarbeiten.<br\/><br\/>✅ Farbpalette mit über 300 Farben <br\/>✅ Einfach zu Teilen mit sechs feinen Fäden<br\/>✅ Speziell ausgelegt fürs Sticken<\/p>",
+            "button_label": "Anchor Sticktwist ansehen",
+            "button_link": "shopify:\/\/collections\/stickgarn"
+          }
+        }
+      },
+      "block_order": [
+        "template--17859632005385__13e82d6d-beaa-4f26-91ed-1ffe18488827-1678740804a7ddb48b-0",
+        "template--17859632005385__13e82d6d-beaa-4f26-91ed-1ffe18488827-1678740804a7ddb48b-1",
+        "template--17859632005385__13e82d6d-beaa-4f26-91ed-1ffe18488827-1678740804a7ddb48b-2"
+      ],
+      "settings": {
+        "image_height": "small",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "primary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "align-left",
+        "section_color_scheme": "background-1",
+        "row_color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "1920c4d9-db5a-40ac-a3e9-457ed3500ac5": {
+      "type": "rich-text",
+      "blocks": {
+        "5db3eab1-b4a4-4dcc-98bf-fde63ae7a290": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Zubehör<\/p>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "5db3eab1-b4a4-4dcc-98bf-fde63ae7a290"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -76,132 +195,40 @@
         "padding_bottom": 0
       }
     },
-    "featured_collection": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Featured products",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "all",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 28,
-        "padding_bottom": 36
-      }
-    },
-    "collage": {
-      "type": "collage",
+    "f66eb24b-3828-4e6f-89d2-c865e84be0a9": {
+      "type": "collection-list",
       "blocks": {
-        "collection-0": {
-          "type": "collection",
+        "template--17859632005385__f66eb24b-3828-4e6f-89d2-c865e84be0a9-167874540202f527a4-0": {
+          "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "hakelnadeln"
           }
         },
-        "product": {
-          "type": "product",
+        "template--17859632005385__f66eb24b-3828-4e6f-89d2-c865e84be0a9-167874540202f527a4-1": {
+          "type": "featured_collection",
           "settings": {
-            "product": "",
-            "second_image": false
+            "collection": "stricknadeln-und-stricknadelzubehor"
           }
         },
-        "collection-1": {
-          "type": "collection",
+        "template--17859632005385__f66eb24b-3828-4e6f-89d2-c865e84be0a9-167874540202f527a4-2": {
+          "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "stickstoffe"
           }
         }
       },
       "block_order": [
-        "collection-0",
-        "product",
-        "collection-1"
-      ],
-      "settings": {
-        "heading": "Multimedia collage",
-        "heading_size": "h2",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "card_styles": "product-card-wrapper",
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "video": {
-      "type": "video",
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "multicolumn": {
-      "type": "multicolumn",
-      "blocks": {
-        "column1": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column2": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column3": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column1",
-        "column2",
-        "column3"
+        "template--17859632005385__f66eb24b-3828-4e6f-89d2-c865e84be0a9-167874540202f527a4-0",
+        "template--17859632005385__f66eb24b-3828-4e6f-89d2-c865e84be0a9-167874540202f527a4-1",
+        "template--17859632005385__f66eb24b-3828-4e6f-89d2-c865e84be0a9-167874540202f527a4-2"
       ],
       "settings": {
         "title": "",
         "heading_size": "h1",
-        "image_width": "third",
-        "image_ratio": "adapt",
+        "image_ratio": "square",
         "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
         "color_scheme": "background-1",
+        "show_view_all": false,
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,
@@ -210,11 +237,11 @@
     }
   },
   "order": [
-    "image_banner",
     "rich_text",
-    "featured_collection",
-    "collage",
-    "video",
-    "multicolumn"
+    "f333d0ae-b2e0-4890-bdb3-0b603f91ba19",
+    "260dd7b8-3bf2-4c90-89ce-693f5c0e90c0",
+    "13e82d6d-beaa-4f26-91ed-1ffe18488827",
+    "1920c4d9-db5a-40ac-a3e9-457ed3500ac5",
+    "f66eb24b-3828-4e6f-89d2-c865e84be0a9"
   ]
 }

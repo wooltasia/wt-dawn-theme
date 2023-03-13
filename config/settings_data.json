@@ -1,6 +1,7 @@
 {
   "current": {
-    "logo_width": 90,
+    "logo": "shopify:\/\/shop_images\/letter_header_neu_shop_weiss_6bd8e563-1b7e-4de6-a215-ffcc381b19a9.png",
+    "logo_width": 200,
     "colors_solid_button_labels": "#ffffff",
     "colors_accent_1": "#7b46b7",
     "gradient_accent_1": "",
@@ -15,7 +16,7 @@
     "type_header_font": "open_sans_n4",
     "heading_scale": 100,
     "type_body_font": "open_sans_n4",
-    "body_scale": 130,
+    "body_scale": 115,
     "page_width": 1200,
     "spacing_sections": 0,
     "spacing_grid_horizontal": 8,
