@@ -47,14 +47,14 @@
         "template--17859632005385__f333d0ae-b2e0-4890-bdb3-0b603f91ba19-1678745862e6460cea-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Mit den neuen Pixel Maschenprobenpaketen findest du direkt raus, welche Fädigkeit zu dir passt und natürlich auch den zentralen Wert für die Projekterstellung in der App.<\/p><p>Um das ganze noch einfacher zu machen, gibt es sie jetzt auch im Set mit Zählrahmen, der dich vor dem mühsamen Abmessen mit dem Lineal bewahrt.<\/p>",
+            "text": "<p>Mit den neuen Pixel Maschenprobenpaketen findest du direkt raus, welche Fädigkeit zu dir passt und natürlich auch den zentralen Wert für die Projekterstellung in der App herausfinden.<\/p><p>Um das ganze noch einfacher zu machen, gibt es sie jetzt auch im Set mit Zählrahmen, der dich vor dem Mühsamen abmessen mit dem Lineal bewahrt.<\/p>",
             "text_style": "body"
           }
         },
         "template--17859632005385__f333d0ae-b2e0-4890-bdb3-0b603f91ba19-1678745862e6460cea-2": {
           "type": "button",
           "settings": {
-            "button_label": "Mehr erfahren",
+            "button_label": "Maschenprobenpakete ansehen",
             "button_link": "shopify:\/\/products\/pixel-maschenprobenpaket"
           }
         }
@@ -74,7 +74,7 @@
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
+        "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -127,7 +127,8 @@
             "heading": "Wooltasia® Pixel",
             "text": "<p>Unsere Pixel sind echte Allrounder und machen schon beim Auspacken Lust, die Nadel in die Hand zu nehmen. TODO: Rüberbringen, dass sie feine Motive ermöglichen.<br\/><br\/>✅ Farbpalette mit über 50 Farben<br\/>✅ Verfügbar in drei verschiedenen Stärken<br\/>✅ Geeignet für Häkeln (auch C2C), Stricken und Sticken<br\/>✅ Perfekt für detaillierte Motive als Kissen oder Decke<br\/>✅ Probepakete für die Maschenprobe erhältlich<\/p>",
             "button_label": "Pixel ansehen",
-            "button_link": "shopify:\/\/collections\/pixel"
+            "button_link": "shopify:\/\/collections\/pixel",
+            "color_scheme": "background-2"
           }
         },
         "template--17859632005385__13e82d6d-beaa-4f26-91ed-1ffe18488827-1678740804a7ddb48b-1": {
@@ -137,7 +138,8 @@
             "heading": "Gründl Lisa Premium",
             "text": "<p>Die Lisa Premium hat einen wollartigen Charakter und eignet sich wegen ihrer Dicke für große Motivdecken und Logos auf Kissen.<br\/><br\/>✅ Farbpalette mit über 30 Farben<br\/>✅ Geeignet für Häkeln (auch C2C) und Stricken<br\/>✅ Wollartiger Charakter für kuschlige Decken und Kissen<\/p>",
             "button_label": "Lisa Premium ansehen",
-            "button_link": "shopify:\/\/collections\/lisa-premium-uni"
+            "button_link": "shopify:\/\/collections\/lisa-premium-uni",
+            "color_scheme": "inherit"
           }
         },
         "template--17859632005385__13e82d6d-beaa-4f26-91ed-1ffe18488827-1678740804a7ddb48b-2": {
@@ -147,7 +149,8 @@
             "heading": "Anchor Sticktwist",
             "text": "<p>Das Sticktwist von Anchor ist ein echter Champion für Motive im Kreuzstich. Das Garn lässt sich auch bei feiner Lochzahl praktisch verarbeiten.<br\/><br\/>✅ Farbpalette mit über 300 Farben <br\/>✅ Einfach zu Teilen mit sechs feinen Fäden<br\/>✅ Speziell ausgelegt fürs Sticken<\/p>",
             "button_label": "Anchor Sticktwist ansehen",
-            "button_link": "shopify:\/\/collections\/stickgarn"
+            "button_link": "shopify:\/\/collections\/stickgarn",
+            "color_scheme": "inherit"
           }
         }
       },
@@ -166,7 +169,7 @@
         "desktop_content_alignment": "left",
         "image_layout": "align-left",
         "section_color_scheme": "background-1",
-        "row_color_scheme": "background-2",
+        "row_color_scheme": "background-1",
         "mobile_content_alignment": "left",
         "padding_top": 0,
         "padding_bottom": 0
@@ -234,63 +237,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "1678747643cc9da2a6": {
-      "type": "apps",
-      "blocks": {
-        "bf35ada5-d712-4e1f-a878-994b1bb9107e": {
-          "type": "shopify:\/\/apps\/bundler-product-bundles\/blocks\/custom-bundle\/7a6ae1b8-3b16-449b-8429-8bb89a62c664",
-          "settings": {
-            "shortcode": ""
-          }
-        }
-      },
-      "block_order": [
-        "bf35ada5-d712-4e1f-a878-994b1bb9107e"
-      ],
-      "settings": {
-        "include_margins": true
-      }
-    },
-    "b3e0a254-5a12-42ec-b3a9-2b0f3bc6bd3b": {
-      "type": "collection-list",
-      "blocks": {
-        "template--17859479240969__b3e0a254-5a12-42ec-b3a9-2b0f3bc6bd3b-1678747882fd3b47c5-0": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "template--17859479240969__b3e0a254-5a12-42ec-b3a9-2b0f3bc6bd3b-1678747882fd3b47c5-1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "template--17859479240969__b3e0a254-5a12-42ec-b3a9-2b0f3bc6bd3b-1678747882fd3b47c5-2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--17859479240969__b3e0a254-5a12-42ec-b3a9-2b0f3bc6bd3b-1678747882fd3b47c5-0",
-        "template--17859479240969__b3e0a254-5a12-42ec-b3a9-2b0f3bc6bd3b-1678747882fd3b47c5-1",
-        "template--17859479240969__b3e0a254-5a12-42ec-b3a9-2b0f3bc6bd3b-1678747882fd3b47c5-2"
-      ],
-      "settings": {
-        "title": "Collections",
-        "heading_size": "h1",
-        "image_ratio": "square",
-        "columns_desktop": 3,
-        "color_scheme": "background-1",
-        "show_view_all": false,
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -299,8 +245,6 @@
     "260dd7b8-3bf2-4c90-89ce-693f5c0e90c0",
     "13e82d6d-beaa-4f26-91ed-1ffe18488827",
     "1920c4d9-db5a-40ac-a3e9-457ed3500ac5",
-    "f66eb24b-3828-4e6f-89d2-c865e84be0a9",
-    "1678747643cc9da2a6",
-    "b3e0a254-5a12-42ec-b3a9-2b0f3bc6bd3b"
+    "f66eb24b-3828-4e6f-89d2-c865e84be0a9"
   ]
 }
