@@ -5,7 +5,7 @@
     "418f2c34-c089-4f99-b77e-92d9579997ae": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "",
+        "custom_liquid": "<div class=\"footer\">asdfasf<\/div>",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
@@ -51,7 +51,7 @@
         "enable_language_selector": false,
         "payment_enable": true,
         "show_policy": false,
-        "margin_top": 48,
+        "margin_top": 0,
         "padding_top": 36,
         "padding_bottom": 36
       }
