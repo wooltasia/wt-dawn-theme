@@ -8,10 +8,10 @@
 
       ],
       "settings": {
-        "custom_liquid": "<div style=\"border-top: .1rem solid rgba(var(--color-foreground),.08); padding-top: 40px;\" class=\"page-width\"><\/div>",
+        "custom_liquid": "<div\n  style=\"\n    border-top: 0.1rem solid rgba(var(--color-foreground), 0.08);\n    padding-top: 10px;\n    padding-bottom: 10px;\n  \"\n  class=\"page-width\"\n>\n  <p>\n    <small\n      >* Bei Versand in die EU ist die Mehrwertssteuer enthalten. Außerhalb der\n      EU (z.B. Schweiz) können zusätzlich Steuern und Zölle bei der Einfuhr\n      anfallen.<\/small\n    >\n  <\/p>\n<\/div>",
         "color_scheme": "background-1",
-        "padding_top": 0,
-        "padding_bottom": 52
+        "padding_top": 40,
+        "padding_bottom": 0
       }
     },
     "footer": {
