@@ -42,12 +42,6 @@
           "type": "description",
           "settings": {
           }
-        },
-        "2d1a840e-dcc0-4937-bd30-fcd85ee28e01": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button"
-          }
         }
       },
       "block_order": [
@@ -57,8 +51,7 @@
         "price",
         "quantity_selector",
         "buy_buttons",
-        "description",
-        "2d1a840e-dcc0-4937-bd30-fcd85ee28e01"
+        "description"
       ],
       "settings": {
         "enable_sticky_info": true,
