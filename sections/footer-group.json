@@ -5,7 +5,7 @@
     "418f2c34-c089-4f99-b77e-92d9579997ae": {
       "type": "custom-liquid",
       "custom_css": [
-
+        ".gradient {border-top: .1rem solid rgba(var(--color-foreground),.08);}"
       ],
       "settings": {
         "custom_liquid": "<div>asdfasf<\/div>",
