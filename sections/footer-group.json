@@ -8,7 +8,7 @@
 
       ],
       "settings": {
-        "custom_liquid": "<div style=\"border-top: .1rem solid rgba(var(--color-foreground),.08); padding-top: 40px;\" class=\"page-width\">asdfasf<\/div>",
+        "custom_liquid": "<div style=\"border-top: .1rem solid rgba(var(--color-foreground),.08); padding-top: 40px;\" class=\"page-width\"><\/div>",
         "color_scheme": "background-1",
         "padding_top": 0,
         "padding_bottom": 52
