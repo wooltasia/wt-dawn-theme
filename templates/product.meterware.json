@@ -88,6 +88,9 @@
     },
     "679478de-2e8c-46c0-b721-92497e506e0c": {
       "type": "custom-liquid",
+      "custom_css": [
+
+      ],
       "settings": {
         "custom_liquid": "<script src=\"https:\/\/ajax.googleapis.com\/ajax\/libs\/jquery\/3.5.1\/jquery.min.js\" rel=\"preload\"><\/script>",
         "color_scheme": "background-1",
