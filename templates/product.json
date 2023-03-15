@@ -44,51 +44,14 @@
             "show_dynamic_checkout": true
           }
         },
+        "eecfea01-1301-4176-8873-8f3108b42249": {
+          "type": "shopify:\/\/apps\/bundler-product-bundles\/blocks\/bundler-target-element\/7a6ae1b8-3b16-449b-8429-8bb89a62c664",
+          "settings": {
+          }
+        },
         "description": {
           "type": "description",
           "settings": {
-          }
-        },
-        "collapsible-row-0": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Materials",
-            "icon": "leather",
-            "content": "",
-            "page": ""
-          }
-        },
-        "collapsible-row-1": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Shipping & Returns",
-            "icon": "truck",
-            "content": "",
-            "page": ""
-          }
-        },
-        "collapsible-row-2": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Dimensions",
-            "icon": "ruler",
-            "content": "",
-            "page": ""
-          }
-        },
-        "collapsible-row-3": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Care Instructions",
-            "icon": "heart",
-            "content": "",
-            "page": ""
-          }
-        },
-        "share": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
           }
         }
       },
@@ -100,12 +63,8 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "description",
-        "collapsible-row-0",
-        "collapsible-row-1",
-        "collapsible-row-2",
-        "collapsible-row-3",
-        "share"
+        "eecfea01-1301-4176-8873-8f3108b42249",
+        "description"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -139,27 +98,10 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
-    },
-    "1678889253e8986d6c": {
-      "type": "apps",
-      "blocks": {
-        "b66beb70-4418-404b-b722-2e9d3ee5aeb8": {
-          "type": "shopify:\/\/apps\/bundler-product-bundles\/blocks\/bundler-target-element\/7a6ae1b8-3b16-449b-8429-8bb89a62c664",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "b66beb70-4418-404b-b722-2e9d3ee5aeb8"
-      ],
-      "settings": {
-        "include_margins": true
-      }
     }
   },
   "order": [
     "main",
-    "related-products",
-    "1678889253e8986d6c"
+    "related-products"
   ]
 }
