@@ -1,10 +1,57 @@
 {
   "sections": {
     "main": {
-      "type": "main-register"
+      "type": "main-register",
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "e861b315-7993-4ad4-8863-5986ce0586d4": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17859479765257__e861b315-7993-4ad4-8863-5986ce0586d4-16789791009da66e03-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Hinweis",
+            "heading_size": "h1"
+          }
+        },
+        "template--17859479765257__e861b315-7993-4ad4-8863-5986ce0586d4-16789791009da66e03-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Dein App-Konto (für die Projektsicherung) ist nicht im Shop gültig und andersrum. Wenn du dein Passwort für die App ändern möchtest, nutze die \"Passwort zurücksetzen\" Funktion in der App.<\/p>"
+          }
+        },
+        "template--17859479765257__e861b315-7993-4ad4-8863-5986ce0586d4-16789791009da66e03-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17859479765257__e861b315-7993-4ad4-8863-5986ce0586d4-16789791009da66e03-0",
+        "template--17859479765257__e861b315-7993-4ad4-8863-5986ce0586d4-16789791009da66e03-1",
+        "template--17859479765257__e861b315-7993-4ad4-8863-5986ce0586d4-16789791009da66e03-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "e861b315-7993-4ad4-8863-5986ce0586d4"
   ]
 }
