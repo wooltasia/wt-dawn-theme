@@ -175,6 +175,59 @@
         "padding_bottom": 0
       }
     },
+    "6b56671f-2148-4e68-888e-93cc2c71b737": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--17859479240969__6b56671f-2148-4e68-888e-93cc2c71b737-1678981034c56a75cf-0": {
+          "type": "column",
+          "settings": {
+            "title": "Einfach über die App bestellen",
+            "text": "<p>Die Wooltasia App rechnet dir automatisch eine Vorschlagsmenge an Garn für dein Projekt aus.<\/p>",
+            "link_label": "Infos zum Garnangebot",
+            "link": ""
+          }
+        },
+        "template--17859479240969__6b56671f-2148-4e68-888e-93cc2c71b737-1678981034c56a75cf-1": {
+          "type": "column",
+          "settings": {
+            "title": "Zuverlässiger Versand",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--17859479240969__6b56671f-2148-4e68-888e-93cc2c71b737-1678981034c56a75cf-2": {
+          "type": "column",
+          "settings": {
+            "title": "Sicher und unkompliziert Bezahlen",
+            "text": "<p>Du kannst in unserem Shop einfach und sicher mit PayPal, Kreditkarte oder Banküberweisung mit Klarna bezahlen.<\/p>",
+            "link_label": "Infos zur Zahlung",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17859479240969__6b56671f-2148-4e68-888e-93cc2c71b737-1678981034c56a75cf-0",
+        "template--17859479240969__6b56671f-2148-4e68-888e-93cc2c71b737-1678981034c56a75cf-1",
+        "template--17859479240969__6b56671f-2148-4e68-888e-93cc2c71b737-1678981034c56a75cf-2"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "1920c4d9-db5a-40ac-a3e9-457ed3500ac5": {
       "type": "rich-text",
       "blocks": {
@@ -244,6 +297,7 @@
     "f333d0ae-b2e0-4890-bdb3-0b603f91ba19",
     "260dd7b8-3bf2-4c90-89ce-693f5c0e90c0",
     "13e82d6d-beaa-4f26-91ed-1ffe18488827",
+    "6b56671f-2148-4e68-888e-93cc2c71b737",
     "1920c4d9-db5a-40ac-a3e9-457ed3500ac5",
     "f66eb24b-3828-4e6f-89d2-c865e84be0a9"
   ]
