@@ -58,10 +58,20 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "408c566b-8d91-4276-992f-226f501ef43b": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<link rel=\"stylesheet\" type=\"text\/css\" href=\"https:\/\/cdn.jsdelivr.net\/npm\/cookieconsent@3\/build\/cookieconsent.min.css\" \/>\n<script src=\"https:\/\/cdn.jsdelivr.net\/npm\/cookieconsent@3\/build\/cookieconsent.min.js\" data-cfasync=\"false\"><\/script>\n<script>\nwindow.cookieconsent.initialise({\n  \"palette\": {\n    \"popup\": {\n      \"background\": \"#ffffff\",\n      \"text\": \"#404040\"\n    },\n    \"button\": {\n      \"background\": \"#7b46b7\",\n      \"text\": \"#ffffff\"\n    }\n  },\n  \"theme\": \"block\",\n  \"content\": {\n    \"message\": \"Unser Shop benutzt Cookies um dir ein angenehmes Erlebnis zu bieten.\",\n    \"dismiss\": \"Verstanden\",\n    \"link\": \"Mehr erfahren\",\n    \"href\": \"https:\/\/www.cookiesandyou.com\/\"\n  }\n  \/* ,\"showLink\": false \/\/ alternative to link \/ href above *\/\n});\n<\/script>",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
     "418f2c34-c089-4f99-b77e-92d9579997ae",
-    "footer"
+    "footer",
+    "408c566b-8d91-4276-992f-226f501ef43b"
   ]
 }
