@@ -28,12 +28,19 @@
           "type": "price",
           "settings": {
           }
+        },
+        "acbc7924-0ccd-4338-9774-a1706b29a6e1": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
         }
       },
       "block_order": [
         "template--17859479568649__dd4bde6c-78fe-49b3-8ecd-ee13fa1bb320-16789805874bcc6586-0",
         "template--17859479568649__dd4bde6c-78fe-49b3-8ecd-ee13fa1bb320-16789805874bcc6586-1",
-        "template--17859479568649__dd4bde6c-78fe-49b3-8ecd-ee13fa1bb320-16789805874bcc6586-2"
+        "template--17859479568649__dd4bde6c-78fe-49b3-8ecd-ee13fa1bb320-16789805874bcc6586-2",
+        "acbc7924-0ccd-4338-9774-a1706b29a6e1"
       ],
       "settings": {
         "product": "{{ collection.metafields.custom.featured_product.value }}",
