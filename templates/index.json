@@ -200,7 +200,7 @@
           "type": "column",
           "settings": {
             "title": "Sicher und unkompliziert Bezahlen",
-            "text": "<p>Du kannst in unserem Shop einfach und sicher mit PayPal, Kreditkarte oder Banküberweisung mit Klarna bezahlen.<\/p>",
+            "text": "<p>Du kannst einfach und sicher mit PayPal, Kreditkarte oder Banküberweisung mit Klarna in unserem Shop bezahlen.<\/p>",
             "link_label": "Infos zur Zahlung",
             "link": ""
           }
