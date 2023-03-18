@@ -194,8 +194,8 @@
           "settings": {
             "title": "Zuverlässiger Versand",
             "text": "",
-            "link_label": "",
-            "link": ""
+            "link_label": "Infos zum Versand",
+            "link": "shopify:\/\/policies\/shipping-policy"
           }
         },
         "template--17859479240969__6b56671f-2148-4e68-888e-93cc2c71b737-1678981034c56a75cf-2": {
