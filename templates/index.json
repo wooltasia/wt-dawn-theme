@@ -202,7 +202,7 @@
           "type": "column",
           "settings": {
             "title": "Sicher Bezahlen",
-            "text": "<p>Du kannst einfach und sicher mit PayPal, Kreditkarte oder Banküberweisung mit Klarna in unserem Shop bezahlen.<\/p>",
+            "text": "<p>Du kannst einfach und sicher mit gängigen Methoden in unserem Shop bezahlen. Auch Banküberweisung ist möglich!<\/p>",
             "link_label": "Infos zur Zahlung",
             "link": "shopify:\/\/pages\/zahlungsmethoden"
           }
